@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5c110633-64eb-4805-ad18-0c9dceb7e92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\calling">
+      <UniqueIdentifier>{092602c9-d46a-45f2-ab26-21971995bde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\launch">
+      <UniqueIdentifier>{3d17680d-677f-4c99-a918-ff5a4a7ec1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\handler">
+      <UniqueIdentifier>{c85cdd54-d30a-4e60-91b4-264a32e188cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{40004450-65fc-4d74-ade1-7d9629f2ffbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cef">
+      <UniqueIdentifier>{e2b3a335-7bd9-41e7-a3f7-6dd7558c51cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_renderer.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_browser.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\launch\aqua_launch_main.h">
+      <Filter>src\launch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\handler\aqua_handler_renderer.h">
+      <Filter>src\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\aqua_utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_request_context_handler.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_browser_host.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_browser.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_command_line.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_frame.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_request_context.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_types.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_window.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_visitor.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_v8.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_quit.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_cookie.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_cookie.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_v8.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_postdata.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_request.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_response.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_download.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_callback.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_schemes.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cef\aqua_httpserver.h">
+      <Filter>src\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\auqa_calling_response_filter.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\calling\aqua_calling_httpserver.h">
+      <Filter>src\calling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\aqua_conv.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_renderer.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_browser.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\launch\aqua_launch_main.cpp">
+      <Filter>src\launch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\handler\aqua_handler_renderer.cpp">
+      <Filter>src\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\aqua_utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_request_context_handler.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_browser_host.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_browser.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_command_line.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_frame.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_request_context.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_types.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_window.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_visitor.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_v8.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_quit.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_cookie.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_cookie.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_v8.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_postdata.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_request.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_response.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_download.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_callback.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_schemes.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cef\aqua_httpserver.cpp">
+      <Filter>src\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\auqa_calling_response_filter.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\calling\aqua_calling_httpserver.cpp">
+      <Filter>src\calling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\aqua_conv.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libaquarius.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

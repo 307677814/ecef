@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: static - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP248.tmp" with contents
+[
+/nologo /Zp4 /MT /W3 /GX /Od /I "C:\studio\aquariusfne\src" /I "C:\studio\aquariusfne\image\src" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "__E_STATIC_LIB" /Fp"Release/static.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\studio\aquariusfne\src\aquarius.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP248.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../out/aquarius_static.lib"  .\Release\fne.obj .\Release\StdAfx.obj .\Release\aquarius.obj .\Release\AquariusWnd.obj .\Release\eventsfunc.obj "
+<h3>Output Window</h3>
+Compiling...
+aquarius.cpp
+C:\studio\aquariusfne\src\hostfunc.h(119) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\studio\aquariusfne\src\hostfunc.h(143) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\studio\aquariusfne\src\hostfunc.h(155) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\studio\aquariusfne\src\aquariuseventer.h(174) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\studio\aquariusfne\src\aquariuseventer.h(209) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Creating library...
+
+
+
+<h3>Results</h3>
+aquarius_static.lib - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

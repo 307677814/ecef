@@ -1,0 +1,7 @@
+; fne.def : Declares the module parameters for the DLL.
+
+LIBRARY      "aquarius.fne"
+DESCRIPTION  'fne Windows Dynamic Link Library'
+
+EXPORTS
+    GetNewInf

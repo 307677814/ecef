@@ -1,0 +1,20 @@
+//
+// FNE.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+
+#ifndef __COMPILE_FNR
+
+IDB_AQUARIUS_BITMAP    BITMAP  DISCARDABLE     "res\\aquariusicon1.bmp"
+IDB_AQUARIUS_BITMAP2    BITMAP  DISCARDABLE     "res\\aquariusicon2.bmp"
+
+#endif
