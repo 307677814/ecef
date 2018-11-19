@@ -286,8 +286,14 @@ AQUAENTRYFULL(void, TypeBs, FileAccessFromFileUrls)(LPVOID conf, cef_state_t val
 ///
 AQUAENTRYFULL(void, TypeBs, WebSecurity)(LPVOID conf, cef_state_t value) {
 	if (conf) {
+		//对应跨域模式
 		auto data = reinterpret_cast<CefBrowserSettings*>(conf);
-		data->web_security = value;
+		if (value == cef_state_t::STATE_ENABLED) {
+			data->web_security = cef_state_t::STATE_DISABLED;
+		}
+		else if(cef_state_t::STATE_DISABLED) {
+			data->web_security = cef_state_t::STATE_ENABLED;
+		}
 		data->universal_access_from_file_urls = value;
 		data->file_access_from_file_urls = value;
 	}
@@ -299,8 +305,18 @@ AQUAENTRYFULL(void, TypeBs, WebSecurity)(LPVOID conf, cef_state_t value) {
 //	“disable-image-loading”命令行开关。
 ///
 AQUAENTRYFULL(void, TypeBs, ImageLoading)(LPVOID conf, cef_state_t value) {
+	TCHAR buf[64];
 	if (conf) {
 		auto data = reinterpret_cast<CefBrowserSettings*>(conf);
+
+		//对应无图模式设置
+		if (value == cef_state_t::STATE_ENABLED) {
+			value = cef_state_t::STATE_DISABLED;
+		}
+		else if(value == cef_state_t::STATE_DISABLED) {
+			value = cef_state_t::STATE_ENABLED;
+		}
+
 		data->image_loading = value;
 	}
 }

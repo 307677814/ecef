@@ -140,7 +140,7 @@ public:
 				if (dwUnitDataVer > 1)
 					return FALSE;
 				ar >> m_nBorderStyle >> m_package>>
-					m_defaultEncoding>>m_nJavaScript>>
+					m_defaultEncoding>>m_nJavaScript>>m_nPlugins>>
 					m_nWebSecurity>>m_nImageLoading>>m_nWebGL;
 				
 			}

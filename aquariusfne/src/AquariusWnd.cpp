@@ -104,7 +104,7 @@ UNIT_PROPERTY g_aquariusWndProperty [] =
 		/*m_szExplain*/			_WT("是否允许阻止浏览器从目标网络中加载图像资源。"),
 		/*m_shtType*/			UD_PICK_INT,
 		/*m_wState*/			NULL,
-		/*m_szzPickStr*/		_WT("默认\0允许\0禁止\0"),
+		/*m_szzPickStr*/		_WT("默认\0开启\0关闭\0"),
 	},
 	{
 		/*m_szName*/			_WT("WEBGL"),
